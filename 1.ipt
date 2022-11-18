@@ -1,0 +1,52 @@
+*input the coordinate
+* x  y  z
+
+0	0
+6	0
+12	0.3
+14	0.3
+17	0
+30	0
+30	0.4
+0	0.4
+*====================
+*input the quadrature number
+* N is odd for simpson's rule or N <= 200 for Lobatto quadrature
+
+1801
+81
+901
+201
+101
+101
+201
+81
+*====================
+*select quadrature rule: 0 = trapezoidal rule, 1 = simpson's rule, 2 = Lobatto quadrature
+
+1
+*====================
+*input the bundary type
+*1 = phi is given, 0 = partial phi is given
+
+1
+0
+0
+0
+0
+0
+0
+0
+*=======================
+*input the gaussian integratial points no. THIS IS USELESS IN RBIM
+
+8 
+*=======================
+*input the gravity, mu, channel weidth, tho
+
+9.81   1.8   18.95   1.0   998.2
+*=======================
+*endtime, delt time, output step, icon, niter, etol, eb
+
+100   0.002   50   100   4000   1.0e-6   100.0
+*file end
